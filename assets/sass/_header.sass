@@ -1,39 +1,37 @@
 header
     display: flex
     flex-direction: column
-
-.main-header-img
-    position: relative
-    .img-div
-        width: 100%
+    width: 100%
+    .main-header-img
+        display: flex
+        justify-content: center
+        align-items: center
         height: 750px
         background: url("../img/header.png")
         background-size: cover
-        background-repeat: none
+        background-repeat: no-repeat
         background-position: center
-    .main-header-img-infos
-        width: fit-content
-        height: fit-content
-        color: white
-        z-index: 2
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
-        margin: auto
-        transform: translate(50% 50%)
-        position: absolute
-        display: flex
-        flex-direction: column
-        align-items: center
-        h1
+        .main-header-img-infos
             width: fit-content
-            padding: .5rem 0
-            text-transform: uppercase
-            font-size: 3.5rem
-            @include underlineoverline
-            @include robotobold
-        .button
-            margin-top: 40px
-            border-color: $white
+            height: fit-content
+            color: white
+            position: absolute
+            display: flex
+            flex-direction: column
+            align-items: center
+            h1
+                width: fit-content
+                padding: .5rem 0
+                text-transform: uppercase
+                font-size: 3.5rem
+                @include underlineoverline
+                @include robotobold
+            .button
+                margin-top: 40px
+                border-color: $white
+
+    .main-header-greybar 
+        background: $darkgrey1
+        width: 100%
+        height: 60px
         
