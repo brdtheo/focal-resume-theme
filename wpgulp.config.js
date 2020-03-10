@@ -10,13 +10,13 @@
 module.exports = {
 
 	// Project options.
-	projectURL: '127.0.0.1/focal-resume-theme', // Local project URL of your already running WordPress site. Could be something like wpgulp.local or localhost:3000 depending upon your local WordPress setup.
-	productURL: './', // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
+	projectURL: 'localhost/focal-resume-theme/', // Local project URL of your already running WordPress site. Could be something like wpgulp.local or localhost:3000 depending upon your local WordPress setup.
+	productURL: './focal-resume-theme/', // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 	browserAutoOpen: true,
 	injectChanges: true,
 
 	// Style options.
-	styleSRC: './assets/scss/style.sass', // Path to main .scss file.
+	styleSRC: './assets/sass/style.sass', // Path to main .scss file.
 	styleDestination: './assets/css', // Path to place the compiled CSS file. Default set to root folder.
 	outputStyle: 'compact', // Available options → 'compact' or 'compressed' or 'nested' or 'expanded'
 	errLogToConsole: true,

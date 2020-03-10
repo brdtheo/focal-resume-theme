@@ -1,0 +1,24 @@
+@mixin underlineoverline
+    border-top: solid $white 2px
+    border-bottom: solid $white 2px
+
+@mixin robotoregular
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+    font-weight: 400
+
+@mixin robotomedium
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+    font-weight: 500
+
+@mixin robotobold
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+    font-weight: 700
+
+@mixin button
+    width: fit-content
+    padding: 1rem 2.25rem
+    border: solid $limegreen 2px
+    text-transform: uppercase
+    @include robotomedium
+    &:hover
+        background: red
