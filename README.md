@@ -1,4 +1,4 @@
-# Yebo Bicycle Theme
+# Focal resume theme
 
 Reproduction d'une template en SASS
 
