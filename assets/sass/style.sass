@@ -6,12 +6,20 @@
 
 // content styling
 @import 'header'
+@import 'valuesgoalhobbies'
+@import 'aboutme'
 
 
-// global
+// common
+html
+    scroll-behavior: smooth
+
+body
+    @include robotoregular
+    color: $textcolor
+
 .wrapper 
-    width: 1600px
-    margin: 0 auto
+    width: 60%
 
 a 
     color: inherit
@@ -19,3 +27,9 @@ a
 
 .button
     @include button
+
+p
+    line-height: 170%
+
+.lightgrey
+    background: $lightgrey
