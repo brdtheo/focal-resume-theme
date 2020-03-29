@@ -6,7 +6,8 @@ header .wrapper{position:relative;display:-webkit-box;display:-ms-flexbox;displa
 header .main-header-img{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:750px;background:url("../img/header.png");background-size:cover;background-repeat:no-repeat;background-position:center}
 header .main-header-img .main-header-img-infos{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;color:#fafafa;position:absolute;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 header .main-header-img .main-header-img-infos h1{text-align:center;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:.5rem 0;text-transform:uppercase;font-size:3.5rem;border-top:solid #fafafa 2px;border-bottom:solid #fafafa 2px;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700}
-header .main-header-img .main-header-img-infos .button{margin-top:40px;border-color:#fafafa}
+header .main-header-img .main-header-img-infos .button{color:#fafafa;margin-top:40px;border-color:#fafafa}
+header .main-header-img .main-header-img-infos .button:hover{color:#919191;background:#fafafa}
 header .main-header-img .section-dots{right:0;bottom:2rem;position:absolute}
 header .main-header-img .section-dots ul{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:grid;grid-template-columns:1fr;row-gap:.3rem}
 header .main-header-img .section-dots ul li{width:8px;height:8px;border:solid #fafafa 2px;border-radius:50%;-webkit-transition:background ease 200ms;transition:background ease 200ms}
@@ -21,14 +22,36 @@ header .main-header-subnav nav a:hover{color:#2ecc71}
 header .main-header-subnav nav a:last-child{padding-right:0}
 .values-goals-hobbies{padding-top:5rem;padding-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .values-goals-hobbies .wrapper{display:grid;grid-template-columns:repeat(3,1fr);-webkit-column-gap:4rem;-moz-column-gap:4rem;column-gap:4rem}
-.values-goals-hobbies .wrapper h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:500;font-size:1.5rem;margin-bottom:1.8rem;text-transform:uppercase}
-.values-goals-hobbies .wrapper p{text-align:justify}
-.about-me .left-img{display:block;width:30%}
+.values-goals-hobbies .wrapper h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.about-me{display:grid;grid-template-columns:40% 60%}
+.about-me .left-img{display:block;max-width:100%;height:100%;background-image:url("../img/img1.png");background-repeat:no-repeat;background-size:cover;background-position:0 20%}
+.about-me .about-me-infos{max-width:75%;padding:8%}
+.about-me .about-me-infos h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.about-me .about-me-infos .skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3rem;margin-top:5rem}
+.about-me .about-me-infos .skills-grid .skill-item{max-width:100%;display:grid;grid-template-columns:41px auto;-webkit-column-gap:1.5rem;-moz-column-gap:1.5rem;column-gap:1.5rem}
+.about-me .about-me-infos .skills-grid .skill-item img{max-width:100%;display:block}
+.about-me .about-me-infos .skills-grid .skill-item h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1.3rem;margin-bottom:.8rem}
+.my-skills{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:5rem;padding-bottom:5rem;height:500px}
+.my-skills .wrapper{display:grid;grid-template-columns:repeat(2,1fr);-webkit-column-gap:5rem;-moz-column-gap:5rem;column-gap:5rem;height:100%}
+.my-skills .wrapper .my-skills-infos h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.my-skills .wrapper .my-skills-infos .button{margin-top:1rem}
+.my-skills .wrapper .my-skills-progressbars{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item{margin:1rem 0}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .skill-title{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1.2rem}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status{margin-top:.8rem;background:#f2f2f1}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .filled-bar{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;color:#fafafa;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;background:#2ecc71;height:100%;padding:.3rem 0}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .filled-bar span{font-size:.95rem;margin-right:.6rem}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .photoshop{width:90%}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .illustrator{width:80%}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .htmlcss{width:90%}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .phpmysql{width:70%}
+.my-skills .wrapper .my-skills-progressbars .progressbar-item:first-child{margin-top:50px}
 html{scroll-behavior:smooth}
-body{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:400;color:#606d6f}
+body{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:400;color:#919191}
 .wrapper{width:60%}
 a{color:inherit;text-decoration:none}
-.button{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:1rem 2.25rem;border:solid #2ecc71 2px;text-transform:uppercase;-webkit-transition:all ease 100ms;transition:all ease 100ms;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:500}
-.button:hover{background:#fafafa;color:#606d6f}
-p{line-height:170%}
+.button{color:#2ecc71;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:.8rem 2.5rem;border:solid #2ecc71 2px;text-transform:uppercase;-webkit-transition:all ease 100ms;transition:all ease 100ms;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700}
+.button:hover{background:#2ecc71;color:#fafafa}
+p{line-height:180%}
 .lightgrey{background:#f2f2f1}
+.justify{text-align:justify}

@@ -15,15 +15,16 @@
     font-weight: 700
 
 @mixin button
+    color: $limegreen
     width: fit-content
-    padding: 1rem 2.25rem
+    padding: .8rem 2.5rem
     border: solid $limegreen 2px
     text-transform: uppercase
     transition: all ease 100ms
-    @include robotomedium
+    @include robotobold
     &:hover
-        background: $white
-        color: $textcolor
+        background: $limegreen
+        color: $white
 
 @mixin padding
     padding-top: 5rem
@@ -31,7 +32,18 @@
 
 @mixin h2
     color: $darktextcolor
-    @include robotomedium
-    font-size: 1.5rem
+    @include robotobold
+    font-size: 1.6rem
     margin-bottom: 1.8rem
     text-transform: uppercase
+
+@mixin gridsection
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    column-gap: 5rem
+
+@mixin flexcenter
+    display: flex
+    justify-content: center
+    align-items: center
+    
