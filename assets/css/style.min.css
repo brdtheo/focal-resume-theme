@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;
 
-500;700&display=swap");*,*::before,*::after{outline:0;margin:0;padding:0;font-family:inherit}
+500;700&display=swap");*,*::before,*::after{outline:0;margin:0;padding:0;font-family:inherit;-webkit-box-sizing:border-box;box-sizing:border-box}
 header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%}
 header .wrapper{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%}
 header .main-header-img{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:750px;background:url("../img/header.png");background-size:cover;background-repeat:no-repeat;background-position:center}
@@ -9,8 +9,8 @@ header .main-header-img .main-header-img-infos h1{text-align:center;width:-webki
 header .main-header-img .main-header-img-infos .button{color:#fafafa;margin-top:40px;border-color:#fafafa}
 header .main-header-img .main-header-img-infos .button:hover{color:#919191;background:#fafafa}
 header .main-header-img .section-dots{right:0;bottom:2rem;position:absolute}
-header .main-header-img .section-dots ul{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:grid;grid-template-columns:1fr;row-gap:.3rem}
-header .main-header-img .section-dots ul li{width:8px;height:8px;border:solid #fafafa 2px;border-radius:50%;-webkit-transition:background ease 200ms;transition:background ease 200ms}
+header .main-header-img .section-dots ul{list-style:none;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:grid;grid-template-columns:1fr;row-gap:.4rem}
+header .main-header-img .section-dots ul li{width:10px;height:10px;border:solid #fafafa 2px;border-radius:50%;-webkit-transition:background ease 200ms;transition:background ease 200ms}
 header .main-header-img .section-dots ul li:hover{background:#fafafa}
 header .main-header-subnav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:#252e30;width:100%;height:65px;color:#fafafa}
 header .main-header-subnav .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
@@ -31,10 +31,10 @@ header .main-header-subnav nav a:last-child{padding-right:0}
 .about-me .about-me-infos .skills-grid .skill-item{max-width:100%;display:grid;grid-template-columns:41px auto;-webkit-column-gap:1.5rem;-moz-column-gap:1.5rem;column-gap:1.5rem}
 .about-me .about-me-infos .skills-grid .skill-item img{max-width:100%;display:block}
 .about-me .about-me-infos .skills-grid .skill-item h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1.3rem;margin-bottom:.8rem}
-.my-skills{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:5rem;padding-bottom:5rem;height:500px}
+.my-skills{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-top:5rem;padding-bottom:5rem}
 .my-skills .wrapper{display:grid;grid-template-columns:repeat(2,1fr);-webkit-column-gap:5rem;-moz-column-gap:5rem;column-gap:5rem;height:100%}
 .my-skills .wrapper .my-skills-infos h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
-.my-skills .wrapper .my-skills-infos .button{margin-top:1rem}
+.my-skills .wrapper .my-skills-infos p{margin-bottom:2.5rem}
 .my-skills .wrapper .my-skills-progressbars{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%}
 .my-skills .wrapper .my-skills-progressbars .progressbar-item{margin:1rem 0}
 .my-skills .wrapper .my-skills-progressbars .progressbar-item .skill-title{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1.2rem}
@@ -46,6 +46,25 @@ header .main-header-subnav nav a:last-child{padding-right:0}
 .my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .htmlcss{width:90%}
 .my-skills .wrapper .my-skills-progressbars .progressbar-item .progressbar-status .phpmysql{width:70%}
 .my-skills .wrapper .my-skills-progressbars .progressbar-item:first-child{margin-top:50px}
+.resume{position:relative;padding-top:5rem;padding-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.resume .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.resume .wrapper h2{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.resume .wrapper p{text-align:center;margin-bottom:2.5rem}
+.resume::after{top:100%;position:absolute;content:'';background:#f2f2f1;width:0;height:0;border-left:solid white 30px;border-right:solid white 30px;border-top:solid #f2f2f1 20px}
+.myeducation{padding-top:5rem;padding-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.myeducation .myeducationgrid{display:grid;grid-template-columns:repeat(2,1fr);-webkit-column-gap:5rem;-moz-column-gap:5rem;column-gap:5rem}
+.myeducation .myeducationgrid h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.myeducation .myeducationgrid hr{margin:1.8rem 0 1.2rem 0;border-top:solid #d9d9d7 1px;width:100%;height:0;width:100%}
+.myeducation .myeducationgrid .myeducation-infos,.myeducation .myeducationgrid .myeducation-items{height:-webkit-min-content;height:-moz-min-content;height:min-content}
+.myeducation .myeducationgrid .myeducation-items{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item{width:100%;margin-bottom:3.5rem}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item:first-child{margin-top:50px}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item h3{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1.2rem;margin-bottom:.8rem}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item .diploma-infos{margin-bottom:1rem}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item .diploma-infos .date::before{content:'/ '}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item .badge{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:500;color:#fafafa;font-size:.8rem;background:#2ecc71;padding:.3rem .7rem}
+.myeducation .myeducationgrid .myeducation-items .myeducation-item hr{margin:1.8rem 0 1.2rem 0;border-top:solid #d9d9d7 1px;width:100%;height:0}
+.myeducation .wrapper hr{margin:1.8rem 0 1.2rem 0;border-top:solid #d9d9d7 1px;width:100%;height:0;margin:2rem 0 5rem 0}
 html{scroll-behavior:smooth}
 body{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:400;color:#919191}
 .wrapper{width:60%}

@@ -110,6 +110,116 @@
                 </div>
             </div>
         </section>
+
+        <section class="resume lightgrey" id="resume">
+            <div class="wrapper">
+                <h2>resume</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis delectus ex non voluptatem, deleniti officia? Eaque, repellendus consectetur. Nam est ex ea facere at quos vitae suscipit, illo quia.</p>
+                <a href="#" class="button">download resume</a>
+            </div>
+        </section>
+
+        <section class="myeducation" id="my-education">
+            <div class="wrapper">
+                <div class="myeducationgrid">
+                    <div class="myeducation-infos">
+                        <h2>my education</h2>
+                        <p class="justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra ante ante, ut pharetra neque interdum vitae.
+                            Integer ac nisl id risus suscipit lacinia eu feugiat libero.<br><br>
+                            Donec ultrices enim at enim scelerisque, et fringilla libero suscipit. Donec metus mauris, condimentum vitae efficitur eget, blandit eget ex.                    
+                        </p>
+                    </div>
+
+                    <div class="myeducation-items">
+                        <div class="myeducation-item">
+                            <h3>graphic design diploma</h3>
+                            <div class="diploma-infos">
+                                <span><b>Reeves College</b></span>
+                                <span class="date">June 2008 - May 2010</span>
+                            </div>
+                            <span class="badge">4.0 GPA</span>
+                            <hr>
+                            <p class="justify">
+                                Phasellus rhoncus tortor convallis urna dictum, ac bibendum ex placerat. In at pellentesque lorem, vel luctus dolor. Ut tempus, purus
+                                vitae eleifend hendrerit, quam risus mollis sapien, in commodo nisi leo id quam.
+                            </p>
+                        </div>
+
+                        <div class="myeducation-item">
+                            <h3>cit diploma</h3>
+                            <div class="diploma-infos">
+                                <span><b>Lethbridge College</b></span>
+                                <span class="date">June 2006 - May 2008</span>
+                            </div>
+                            <span class="badge">4.0 GPA</span>
+                            <hr>
+                            <p class="justify">
+                                Phasellus rhoncus tortor convallis urna dictum, ac bibendum ex placerat. In at pellentesque lorem, vel luctus dolor. Ut tempus, purus
+                                vitae eleifend hendrerit, quam risus mollis sapien, in commodo nisi leo id quam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <div class="myeducationgrid">
+                    <div class="myeducation-infos">
+                        <h2>work experience</h2>
+                        <p class="justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra ante ante, ut pharetra neque interdum vitae.
+                            Integer ac nisl id risus suscipit lacinia eu feugiat libero.<br><br>
+                            Donec ultrices enim at enim scelerisque, et fringilla libero suscipit. Donec metus mauris, condimentum vitae efficitur eget, blandit eget ex.                    
+                        </p>
+                    </div>
+
+                    <div class="myeducation-items">
+                        <div class="myeducation-item">
+                            <h3>lead web designer</h3>
+                            <div class="diploma-infos">
+                                <span><b>ABC Company, Saskatoon</b></span>
+                                <span class="date">June 2011 - Present</span>
+                            </div>
+                            <span class="badge">3 Years</span>
+                            <hr>
+                            <p class="justify">
+                                Phasellus rhoncus tortor convallis urna dictum, ac bibendum ex placerat. In at pellentesque lorem, vel luctus dolor. Ut tempus, purus
+                                vitae eleifend hendrerit, quam risus mollis sapien, in commodo nisi leo id quam.
+                            </p>
+                        </div>
+
+                        <div class="myeducation-item">
+                            <h3>junior designer</h3>
+                            <div class="diploma-infos">
+                                <span><b>XYZ Company, Lethbridge</b></span>
+                                <span class="date">June 2008 - May 2009</span>
+                            </div>
+                            <span class="badge">1 Year</span>
+                            <hr>
+                            <p class="justify">
+                                Phasellus rhoncus tortor convallis urna dictum, ac bibendum ex placerat. In at pellentesque lorem, vel luctus dolor. Ut tempus, purus
+                                vitae eleifend hendrerit, quam risus mollis sapien, in commodo nisi leo id quam.
+                            </p>
+                        </div>
+
+                        <div class="myeducation-item">
+                            <h3>web developer</h3>
+                            <div class="diploma-infos">
+                                <span><b>The Company, Lethbridge</b></span>
+                                <span class="date">June 2007 - May 2008</span>
+                            </div>
+                            <span class="badge">1 Year</span>
+                            <hr>
+                            <p class="justify">
+                                Phasellus rhoncus tortor convallis urna dictum, ac bibendum ex placerat. In at pellentesque lorem, vel luctus dolor. Ut tempus, purus
+                                vitae eleifend hendrerit, quam risus mollis sapien, in commodo nisi leo id quam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

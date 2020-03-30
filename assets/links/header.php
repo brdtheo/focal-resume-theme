@@ -26,8 +26,8 @@
                     <a href="#">home</a>
                     <a href="#about-me">about me</a>
                     <a href="#my-skills">skills</a>
-                    <a href="#">resume</a>
-                    <a href="#">testimonials</a>
+                    <a href="#resume">resume</a>
+                    <a href="#my-education">testimonials</a>
                     <a href="#">portfolio</a>
                     <a href="#">contact me</a>
                 </nav>
