@@ -65,12 +65,46 @@ header .main-header-subnav nav a:last-child{padding-right:0}
 .myeducation .myeducationgrid .myeducation-items .myeducation-item .badge{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:500;color:#fafafa;font-size:.8rem;background:#2ecc71;padding:.3rem .7rem}
 .myeducation .myeducationgrid .myeducation-items .myeducation-item hr{margin:1.8rem 0 1.2rem 0;border-top:solid #d9d9d7 1px;width:100%;height:0}
 .myeducation .wrapper hr{margin:1.8rem 0 1.2rem 0;border-top:solid #d9d9d7 1px;width:100%;height:0;margin:2rem 0 5rem 0}
+.reviews{padding-top:5rem;padding-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.reviews .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.reviews .wrapper q{font-size:1.4rem;text-align:center}
+.reviews .wrapper q::before,.reviews .wrapper q::after{content:'"'}
+.reviews .wrapper q em{text-align:center}
+.reviews .wrapper .review-author{margin:2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;font-size:1rem}
+.reviews .wrapper .reviews-dots ul{list-style:none;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:grid;grid-template-columns:1fr;row-gap:.4rem}
+.reviews .wrapper .reviews-dots ul li{width:10px;height:10px;border:solid #fafafa 2px;border-radius:50%;-webkit-transition:background ease 200ms;transition:background ease 200ms}
+.reviews .wrapper .reviews-dots ul li:hover{background:#fafafa}
+.reviews .wrapper .reviews-dots ul{grid-template-columns:repeat(3,auto);-webkit-column-gap:.5rem;-moz-column-gap:.5rem;column-gap:.5rem}
+.reviews .wrapper .reviews-dots ul li{border-color:#2ecc71}
+.reviews .wrapper .reviews-dots ul li:hover{background:#2ecc71}
+.portfolio{padding-top:5rem;padding-bottom:5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.portfolio .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.portfolio .wrapper h2{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase}
+.portfolio .wrapper p{text-align:center;margin:1rem 0 5rem 0}
+.portfolio .wrapper .portfolio-projects{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;width:100%}
+.portfolio .wrapper .portfolio-projects .filter-by-category{background:#252e30;padding:2rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;max-width:100%}
+.portfolio .wrapper .portfolio-projects .filter-by-category span{color:#586568;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700;font-size:1.6rem;margin-bottom:1.8rem;text-transform:uppercase;color:#fafafa;font-size:1rem}
+.portfolio .wrapper .portfolio-projects .filter-by-category .active{color:#fafafa}
+.portfolio .wrapper .portfolio-projects .filter-by-category a{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:.2rem 0;-webkit-transition:color ease 100ms;transition:color ease 100ms}
+.portfolio .wrapper .portfolio-projects .filter-by-category a:hover{color:#fafafa}
+.portfolio .wrapper .portfolio-projects .portfolio-item{position:relative;width:100%;height:265px;background-size:cover}
+.portfolio .wrapper .portfolio-projects .portfolio-item:hover>.project-hover-ui{opacity:1}
+.portfolio .wrapper .portfolio-projects .portfolio-item .project-hover-ui{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:0;position:absolute;width:100%;height:100%;background:rgba(46,204,113,0.8);-webkit-transition:opacity ease-in-out 100ms;transition:opacity ease-in-out 100ms}
+.portfolio .wrapper .portfolio-projects .portfolio-item .project-hover-ui img{width:40px}
+.portfolio .wrapper .portfolio-projects .giraffe-restaurant{background:url("../img/img3.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .ui-wireframe{background:url("../img/img4.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .ontario{background:url("../img/img5.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .icons-pack{background:url("../img/img6.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .geometric{background:url("../img/img7.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .elena-wireframe{background:url("../img/img8.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .form-layout{background:url("../img/img9.png") center no-repeat}
+.portfolio .wrapper .portfolio-projects .mockup{background:url("../img/img10.png") center no-repeat}
 html{scroll-behavior:smooth}
 body{font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:400;color:#919191}
 .wrapper{width:60%}
 a{color:inherit;text-decoration:none}
 .button{color:#2ecc71;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:.8rem 2.5rem;border:solid #2ecc71 2px;text-transform:uppercase;-webkit-transition:all ease 100ms;transition:all ease 100ms;font-family:'Roboto',Arial,Helvetica,sans-serif;font-weight:700}
 .button:hover{background:#2ecc71;color:#fafafa}
-p{line-height:180%}
+p,q{line-height:180%}
 .lightgrey{background:#f2f2f1}
 .justify{text-align:justify}

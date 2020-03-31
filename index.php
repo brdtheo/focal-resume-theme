@@ -220,6 +220,84 @@
                 </div>
             </div>
         </section>
+
+        <section class="reviews lightgrey">
+            <div class="wrapper">
+                <q>
+                    <em>
+                        In et aliquam ante, vel placerat augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                        Quisque et sagittis ipsum. Duis eu pulvinar justo. Vestibulum mollis eu est sit amet auctor.Proin porta dapibus sem sed sagittis. 
+                        Suspendisse iaculis congue leo, eu congue tellus sodales et. Fusce eget nulla nisl. Quisque in ultricies orc
+                    </em>
+                </q>
+                <span class="review-author">john stone</span>
+                <div class="reviews-dots">
+                    <ul>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                        <a href=""><li></li></a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="wrapper">
+                <h2>portfolio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac urna nunc. Quisque sed purus sed diam tincidunt vestibulum. Vestibulum eros libero, facilisis vel mollis molestie, aliquet at odio. Cras semper dictum placerat.</p>
+                <div class="portfolio-projects">
+                    <div class="portfolio-item filter-by-category">
+                        <span>filter by category</span>
+                        <a href="#" class="active">All</a>
+                        <a href="#">Themes</a>
+                        <a href="#">Icons</a>
+                        <a href="#">Patterns</a>
+                        <a href="#">Mockups</a>
+                        <a href="#">IU Kits</a>
+                    </div>
+                    <div class="portfolio-item giraffe-restaurant">
+                        <a href="#" class="project-hover-ui">
+                        <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item ui-wireframe">
+                        <a href="#" class="project-hover-ui">
+                            <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item ontario">
+                        <a href="#" class="project-hover-ui">
+                            <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item icons-pack">
+                        <a href="#" class="project-hover-ui">
+                            <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item geometric">
+                        <a href="#" class="project-hover-ui">
+                            <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item elena-wireframe">
+                        <a href="#" class="project-hover-ui">
+                            <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item form-layout">
+                        <a href="#" class="project-hover-ui">
+                        <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="portfolio-item mockup">
+                        <a href="#" class="project-hover-ui">
+                        <img src="assets/img/icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
