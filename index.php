@@ -233,9 +233,9 @@
                 <span class="review-author">john stone</span>
                 <div class="reviews-dots">
                     <ul>
-                        <a href=""><li></li></a>
-                        <a href=""><li></li></a>
-                        <a href=""><li></li></a>
+                        <a href="#"><li></li></a>
+                        <a href="#"><li></li></a>
+                        <a href="#"><li></li></a>
                     </ul>
                 </div>
             </div>
