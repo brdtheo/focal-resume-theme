@@ -29,7 +29,7 @@
                     <a href="#resume">resume</a>
                     <a href="#my-education">testimonials</a>
                     <a href="#portfolio">portfolio</a>
-                    <a href="#">contact me</a>
+                    <a href="#contact-me">contact me</a>
                 </nav>
             </div>
         </div>

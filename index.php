@@ -298,6 +298,62 @@
                 </div>
             </div>
         </section>
+
+        <section class="contact-me" id="contact-me">
+            <div class="wrapper">
+                <div class="contact-me-infos">
+                    <h2>contact me</h2>
+                    <p class="justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique vehicula porta. 
+                        Donec libero orci, faucibus at elementum vitae, tempus at urna. Suspendisse ac nisi nec lacus condimentum mollis at non diam. 
+                        Nunc lacinia est purus, nec pretium arcu dignissim ac.
+                    </p>
+                    <p class="address">
+                        122 33rd Street East<br>
+                        Saskatoon, SK<br>
+                        S7K 1R9
+                    </p>
+                    <div class="email-phone">
+                        <div class="email-phone-item">
+                            <span class="title">Email:</span><span>info@focal.com</span>
+                        </div>
+                        <div class="email-phone-item">
+                            <span class="title">Phone:</span><span>1-306-222-2323</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-me-form" action="#">
+                    <div class="field">
+                        <label for="name" class="mandatory">Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="mandatory">Email Address</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="email" class="mandatory">Email Address</label>
+                        <textarea type="email" name="email" required></textarea>
+                    </div>
+                    <button class="submit">contact me</button>
+                </form>
+            </div>
+            <div class="copyright"></div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="wrapper">
+                <p class="copyright">copyright 2014 focal - built with passion</p>
+                <div class="social-links">
+                    <a href="#"><img src="assets/img/pic5.png" alt="" title="twitter"></a>
+                    <a href="#"><img src="assets/img/pic6.png" alt="" title="facebook"></a>
+                    <a href="#"><img src="assets/img/pic7.png" alt="" title="pinterest"></a>
+                    <a href="#"><img src="assets/img/pic8.png" alt="" title="google+"></a>
+                    <a href="#"><img src="assets/img/pic9.png" alt="" title="dribble"></a>
+                    <a href="#"><img src="assets/img/pic10.png" alt="" title="linkedin"></a>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
