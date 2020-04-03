@@ -60,10 +60,10 @@
     ul
         list-style: none
         width: fit-content
-        display: grid
-        grid-template-columns: 1fr
-        row-gap: .4rem
-        li
+        display: flex
+        flex-direction: column
+        li button
+            background-color: inherit
             width: 10px
             height: 10px
             border: solid $white 2px
@@ -71,3 +71,5 @@
             transition: background ease 200ms
             &:hover
                 background: $white
+        button
+            cursor: pointer

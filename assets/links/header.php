@@ -7,9 +7,9 @@
                 </div>
                 <div class="section-dots">
                     <ul>
-                        <a href=""><li></li></a>
-                        <a href=""><li></li></a>
-                        <a href=""><li></li></a>
+                        <li><button class="active"></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
                     </ul>
                 </div>
             </div>

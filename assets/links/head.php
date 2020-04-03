@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <title>Focal resume theme</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">

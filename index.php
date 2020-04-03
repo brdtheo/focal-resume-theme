@@ -221,7 +221,7 @@
             </div>
         </section>
 
-        <section class="reviews lightgrey">
+        <div class="reviews lightgrey">
             <div class="wrapper">
                 <q>
                     <em>
@@ -233,13 +233,13 @@
                 <span class="review-author">john stone</span>
                 <div class="reviews-dots">
                     <ul>
-                        <a href="#"><li></li></a>
-                        <a href="#"><li></li></a>
-                        <a href="#"><li></li></a>
+                        <li><button class="active"></button></li>
+                        <li><button></button></li>
+                        <li><button></button></li>
                     </ul>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="portfolio" id="portfolio">
             <div class="wrapper">
@@ -325,15 +325,15 @@
                 <form class="contact-me-form" action="#">
                     <div class="field">
                         <label for="name" class="mandatory">Name</label>
-                        <input type="text" name="name" required>
+                        <input type="text" name="name" id="name" required>
                     </div>
                     <div class="field">
                         <label for="email" class="mandatory">Email Address</label>
-                        <input type="email" name="email" required>
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="field">
-                        <label for="email" class="mandatory">Email Address</label>
-                        <textarea type="email" name="email" required></textarea>
+                        <label for="message" class="mandatory">Email Address</label>
+                        <textarea name="message" id="message" required></textarea>
                     </div>
                     <button class="submit">contact me</button>
                 </form>
